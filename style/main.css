@@ -31,3 +31,30 @@ h1{
     padding: 10px;
     color: aliceblue;
 }
+div{
+    background-color: transparent;
+    height: 200px;
+    width: 600px;
+    border: solid;
+    border-color: silver;
+    margin: 10px auto;
+    padding: 2px;
+}
+div aside{
+    background-color: transparent;
+    height: 193px;
+    width: 292px;
+    border: solid;
+    border-color: silver;
+    margin: auto;
+    display: inline-block;
+}
+div aside p{
+    background-color: transparent;
+    height: 193px;
+    width: 292px;
+    border: solid;
+    border-color: silver;
+    margin: auto;
+    display: inline-block;
+}
