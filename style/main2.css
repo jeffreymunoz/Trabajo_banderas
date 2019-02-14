@@ -48,4 +48,80 @@ main footer aside{
     border-color: silver;
     margin: auto;
     display: inline-block;
+    vertical-align: top;
+}
+main footer aside section{
+    background-color: yellow;
+    height: 75px;
+    width: 280px;
+    margin: 5px 0 0 5px;
+    
+}
+main footer aside div{
+    background-color: blue;
+    height: 45px;
+    width: 280px;
+    margin: 0px 0 0 5px;
+    
+}
+main footer aside ul{
+    background-color:red;
+    height: 45px;
+    width: 280px;
+    margin: 0px 0 0 5px;
+    
+}
+main footer aside h2{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  margin: auto;
+}
+main footer aside li{
+    background-color:red;
+    height: 90px;
+    width: 90px;
+    margin: 40px auto 35px;
+    border-radius: 50%;
+    list-style: none; 
+}
+main footer aside nav{
+    background-color:red;
+    height: 45px;
+    width: 280px;
+    margin: 5px 0 0 5px;
+    
+}
+main footer aside ol{
+    background-color: yellow;
+    height: 75px;
+    width: 280px;
+    margin:0px 0 -5px 5px;
+ }
+ main footer aside ol img{
+     width: 60px;
+     height: 65px;
+     margin: 0 0 0 40px;
+ }
+ main footer aside article{
+     background-color: darkgreen;
+    width: 93px;
+    height: 165px;
+    margin: 5px 0 -4px 5px;
+    display:inline-block;
+}
+
+main footer aside h5{
+    background-color: red;
+   width: 93px;
+   height: 165px;
+   margin: 5px 0 -4px 5px;
+   display:inline-block;
+}
+main footer aside img{
+    width: 80px;
+    height: 80px;
+    margin: 0 0 40px 3px;
+    display:inline-block;
 }
