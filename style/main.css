@@ -13,7 +13,7 @@ nav ul li {
     display: inline-block;
     list-style: none;
   }
-nav ul li a{
+nav ul li a{ 
     display: inline-block;
     padding: 25px 20px;
     text-decoration: none;
@@ -31,7 +31,7 @@ h1{
     padding: 10px;
     color: aliceblue;
 }
-div{
+main div{
     background-color: transparent;
     height: 200px;
     width: 600px;
@@ -40,21 +40,155 @@ div{
     margin: 10px auto;
     padding: 2px;
 }
-div aside{
+main div aside{
     background-color: transparent;
     height: 193px;
     width: 292px;
     border: solid;
     border-color: silver;
     margin: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+/*Bandera de Argentina*/
+main div aside p{
+    background-color: cornflowerblue;
+    height: 55px;
+    width: 280px;
+    margin: 5px 0px 0px 5px;
+}
+main div aside ol{
+    background-color: white;
+    height: 55px;
+    width: 280px;
+    margin: 0px 5px -5px 5px;
     display: inline-block;
 }
-div aside p{
-    background-color: transparent;
-    height: 193px;
-    width: 292px;
-    border: solid;
-    border-color: silver;
-    margin: auto;
+main div aside footer{
+    background-color: cornflowerblue;
+    height: 55px;
+    width: 280px;
+    margin: 0px 0px 0px 5px;
+}
+main div aside ol img{
+    height: 50px;
+    margin: 1px 0px 0px 114px;
+}
+main h2{
+    text-align: center;
+    font-size: 18px;
+}
+/*Bandera de Egipto*/
+main div aside h3{
+    background-color: rgb(206, 8, 8);
+    height: 55px;
+    width: 280px;
+    margin: 5px 0px 0px 5px;
+}
+main div aside h4{
+    background-color: white;
+    height: 55px;
+    width: 280px;
+    margin: 0px 0px 0px 5px;
+}
+main div aside h5{
+    background-color: black;
+    height: 55px;
+    width: 280px;
+    margin: 0px 0px 0px 5px;
+}
+main div aside h4 img{
+    height: 52px;
+    margin: 2px 0px 0px 120px;
+}
+/*Bandera de Rusia*/
+main div aside h6{
+    background-color: white;
+    height: 55px;
+    width: 280px;
+    margin: 5px 0px 0px 5px;
+}
+main div aside h1{
+    background-color: rgb(9, 9, 133);
+    height: 35px;
+    width: 260px;
+    margin: 0px 0px 0px 5px;
+}
+main div aside section{
+    background-color: rgb(206, 8, 8);
+    height: 55px;
+    width: 280px;
+    margin: 0px 0px 0px 5px;
+}
+/*Bandera de Finlandia*/
+main div aside ul{
+    background-color: midnightblue;
+    height: 57.5px;
+    width: 50px;
+    margin: 5px 0px 0px 80px;
+}
+main div aside article{
+    background-color: midnightblue;
+    height: 50px;
+    width: 280px;
+    margin: 0px 0px 0px 5px;
+}
+main div aside nav{
+    background-color: midnightblue;
+    height: 57.5px;
+    width: 50px;
+    margin: 0px 0px 0px 80px;
+}
+/*Bandera de Panamá*/
+main div aside li{
+    background-color: white;
+    height: 165px;
+    width: 280px;
+    margin: 5px;
+    list-style: none;
+}
+main div aside li footer{
+    background-color: rgb(206, 8, 8);
+    height: 80px;
+    width: 140px;
+    margin: 0px 0px 0px 40px;
     display: inline-block;
+}
+main div aside li>ol{
+    background-color: rgb(9, 9, 133);
+    height: 80px;
+    width: 140px;
+    margin: -3.8px 0px 0px 0px;
+    display: inline-block;
+}
+main div aside li img{
+    height: 50px;
+    margin: 0px 0px 15px 45px;
+}
+/*Bandera de Costa Rica*/
+.CRica_r{
+    background-color:rgb(206, 8, 8);
+    width: 280px;
+    height: 55px;
+    margin: 27.5px 0 27.5px 5px;
+    padding: 1px 0px 0px 0px;
+
+}
+.CRica_a{
+    background-color:darkblue;
+    width: 280px;
+    height: 27.5px;
+    margin: 5px 0 0px 5px;  
+}
+.CRica_r>article{
+    background-color:white;
+    width: 40px;
+    height: 51px;
+    border-radius: 70%;
+    margin: 2px 0 2px 35px;  
+}
+.CRica_r>article>img{
+    width: 39px;
+    height: 50px;
+    
 }
