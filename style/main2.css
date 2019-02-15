@@ -101,8 +101,8 @@ main footer aside ol{
  }
  main footer aside ol img{
      width: 60px;
-     height: 65px;
-     margin: 0 0 0 40px;
+     height: 60px;
+     margin: 10px 0 0 45px;
  }
  main footer aside article{
      background-color: darkgreen;
@@ -124,4 +124,42 @@ main footer aside img{
     height: 80px;
     margin: 0 0 40px 3px;
     display:inline-block;
+}
+.Corea_r{
+    background-color: red;
+    width: 280px;
+    height: 99px;
+    margin: 3px 0 -2px 5px;
+
+}
+.Corea_a{
+    background-color:blue;
+    width: 280px;
+    height: 30px;
+    margin: 5px 0 0px 5px;  
+}
+.Corea_r>article{
+    background-color:white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 5px 0 0px 45px;  
+}
+.Corea_r>article>img{
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 5px;
+}
+
+.canada_r{
+    background-color: red;
+    width: 60px;
+    height: 165px;
+    margin: 5px 0 -4px 5px;
+    display:inline-block; 
+}
+.Canada{
+    width: 120px;
+    height: 150px;
+    margin: 0 12px 5px 17px;
 }
