@@ -51,7 +51,7 @@ main footer aside{
     vertical-align: top;
 }
 main footer aside section{
-    background-color: yellow;
+    background-color:rgb(255, 230, 0);
     height: 75px;
     width: 280px;
     margin: 5px 0 0 5px;
@@ -79,7 +79,7 @@ main footer aside h2{
   margin: auto;
 }
 main footer aside li{
-    background-color:red;
+    background-color:rgb(197, 42, 42);
     height: 90px;
     width: 90px;
     margin: 40px auto 35px;
@@ -87,14 +87,14 @@ main footer aside li{
     list-style: none; 
 }
 main footer aside nav{
-    background-color:red;
+    background-color:rgb(212, 45, 45);
     height: 45px;
     width: 280px;
     margin: 5px 0 0 5px;
     
 }
 main footer aside ol{
-    background-color: yellow;
+    background-color: rgb(255, 230, 0);
     height: 75px;
     width: 280px;
     margin:0px 0 -5px 5px;
