@@ -41,7 +41,7 @@ main footer{
     padding: 2px;
 }
 main footer aside{
-    background-color: transparent;
+    background-color: darkgray;
     height: 193px;
     width: 292px;
     border: solid;
@@ -50,6 +50,15 @@ main footer aside{
     display: inline-block;
     vertical-align: top;
 }
+.blanco{
+    height: 165px;
+    width: 280px;
+    background-color: white;
+    margin: 5px 0 0 5px;
+    padding: 0.1px;
+}
+/* bandera colombia */
+
 main footer aside section{
     background-color:rgb(255, 230, 0);
     height: 75px;
@@ -78,14 +87,16 @@ main footer aside h2{
   font-size: 18px;
   margin: auto;
 }
-main footer aside li{
+/* bandera japon */
+ main footer div li{
     background-color:rgb(197, 42, 42);
-    height: 90px;
-    width: 90px;
-    margin: 40px auto 35px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     list-style: none; 
+    margin: 32px auto;
 }
+/* bandera españa */
 main footer aside nav{
     background-color:rgb(212, 45, 45);
     height: 45px;
@@ -104,11 +115,13 @@ main footer aside ol{
      height: 60px;
      margin: 10px 0 0 45px;
  }
+ /* bandera Mexico */
+
  main footer aside article{
      background-color: darkgreen;
     width: 93px;
     height: 165px;
-    margin: 5px 0 -4px 5px;
+   
     display:inline-block;
 }
 
@@ -116,27 +129,28 @@ main footer aside h5{
     background-color: red;
    width: 93px;
    height: 165px;
-   margin: 5px 0 -4px 5px;
+
    display:inline-block;
 }
 main footer aside img{
     width: 80px;
     height: 80px;
-    margin: 0 0 40px 3px;
+    margin: 0 3px 40px 3px;
     display:inline-block;
 }
+/* bandera corea */
 .Corea_r{
     background-color: red;
     width: 280px;
     height: 99px;
-    margin: 3px 0 -2px 5px;
+    margin: 3px 0px ;
 
 }
 .Corea_a{
     background-color:blue;
     width: 280px;
     height: 30px;
-    margin: 5px 0 0px 5px;  
+
 }
 .Corea_r>article{
     background-color:white;
@@ -150,16 +164,16 @@ main footer aside img{
     height: 80px;
     margin: 0 0 0 5px;
 }
-
+/* bandera canada */
 .canada_r{
     background-color: red;
     width: 60px;
     height: 165px;
-    margin: 5px 0 -4px 5px;
+
     display:inline-block; 
 }
 .Canada{
     width: 120px;
     height: 150px;
-    margin: 0 12px 5px 17px;
+    margin: 0 15px 5px 17px;
 }
