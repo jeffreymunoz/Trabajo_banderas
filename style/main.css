@@ -41,7 +41,7 @@ main div{
     padding: 2px;
 }
 main div aside{
-    background-color: transparent;
+    background-color: darkgray;
     height: 193px;
     width: 292px;
     border: solid;
@@ -131,7 +131,6 @@ main div aside article{
     background-color: midnightblue;
     height: 50px;
     width: 280px;
-    margin: 0px 0px 0px 5px;
 }
 main div aside nav{
     background-color: midnightblue;
@@ -153,6 +152,7 @@ main div aside li footer{
     width: 140px;
     margin: 0px 0px 0px 40px;
     display: inline-block;
+    padding: 5px 0px 0px 0px;
 }
 main div aside li>ol{
     background-color: rgb(9, 9, 133);
@@ -163,22 +163,22 @@ main div aside li>ol{
 }
 main div aside li img{
     height: 50px;
-    margin: 0px 0px 15px 45px;
+    margin: 0px 0px 16px 45.8px;
 }
 /*Bandera de Costa Rica*/
 .CRica_r{
-    background-color:rgb(206, 8, 8);
+    background-color: rgb(206, 8, 8);
     width: 280px;
     height: 55px;
-    margin: 27.5px 0 27.5px 5px;
+    margin: 20.5px 0 19.5px 0px;
     padding: 1px 0px 0px 0px;
 
 }
 .CRica_a{
-    background-color:darkblue;
+    background-color: darkblue;
     width: 280px;
     height: 27.5px;
-    margin: 5px 0 0px 5px;  
+    margin: 0px 0 0px 0px
 }
 .CRica_r>article{
     background-color:white;
@@ -190,5 +190,6 @@ main div aside li img{
 .CRica_r>article>img{
     width: 39px;
     height: 50px;
+    margin: auto;
     
 }
